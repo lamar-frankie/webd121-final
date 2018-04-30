@@ -1,137 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Machine Learning Engineer</title>
-    <meta charset="UTF-8">
-    <meta name="author" content="Frankie Lamar">
-    <meta name="'keywords" content="Machine, Learning, Engineer, Deep, Deep Learning, Supervised Learning, Unsupervised Learning">
-    <meta name="description" content="Machine Learning is one of the a fastest growing areas of computer science.">
-    <link rel="icon" href="images/brain.png" type="image/png">
-    <link rel="stylesheet" type="text/css" href="LamarFrankieFinalProject.css">
-</head>
-<body>
-<div id="navigation">
-    <ul>
-        <li><a href="LamarFrankieFinalProject.html">Home</a></li>
-        <li><a href="Skills.html">Skills</a></li>
-        <li><a href="Education.html">Education</a></li>
-        <li><a href="Benefits.html">Benefits</a></li>
-        <li><a href="LearnMore.html">Learn More</a></li>
+    <head>
+        <meta charset="UTF-8">
+        <title>Machine Learning Engineer</title>
+        <meta name="author" content="Frankie Lamar">
+        <meta name="'keywords" content="Machine, Learning, Engineer, Deep, Deep Learning, Supervised Learning, Unsupervised Learning">
+        <meta name="description" content="Machine Learning is one of the a fastest growing areas of computer science.">
+        <link rel="icon" href="images/brain.png" type="image/png">
+        <link rel="stylesheet" type="text/css" href="LamarFrankieFinalProject.css">
+    </head>
+    <body>
+        <div class="navigation">
+            <ul class="nav">
+                <li><a href="LamarFrankieFinalProject.html">Home</a></li>
+                <li><a href="Skills.html">Skills</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="Benefits.html">Benefits</a></li>
+                <li><a href="LearnMore.html">Learn More</a></li>
 
-    </ul>
-</div>
-
-<br>
-<h1>Machine Learning Engineer</h1>
-<br>
-<br>
-<h3>What is Machine Learning?</h3>
-<img src="images/engineer_1.jpeg">
-<p>
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-</p>
-<br>
-<br>
-<h3>What do Machine Learning Engineers Do?</h3>
-<img src="images/engineer_3.jpeg">
-
-<div id="sign_up_form">
-    <form action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="post">
-        <!--text boxes-->
-        <label for="f_name">First Name:</label><br>
-        <input id="f_name" type="text" name="f_name">
-        <br>
-        <label for="l_name">Last Name:</label><br>
-        <input id="l_name" type="text" name="l_name">
+            </ul>
+        </div>
 
         <br>
-        <br>
-
-        <!--radio button-->
-        <label for="status_1">Status:</label><br>
-        <input id="status_1" type="radio" name="status" value="student" checked> Student
-
-        <label for="status_2"></label>
-        <input id="status_2" type="radio" name="status" value="hobbyist"> Hobbyist
-
-        <label for="status_3"></label>
-        <input id="status_3" type="radio" name="status" value="professional"> Professional
-
+        <h1>Machine Learning Engineer</h1>
         <br>
         <br>
+        <h3>Connect with us to learn more?</h3>
+        <img src="images/engineer_3.jpeg" alt="Machine Learning">
 
-        <!--checkboxes-->
-        <label for="yes">Would you be interested in attending a conference on Machine Learning?</label><br>
-        <input id="yes" type="checkbox" name="conference" value="yes checked">Yes
+        <div id="sign_up_form">
+            <form action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="post">
+                <!--text boxes-->
+                <label for="f_name">First Name:</label><br>
+                <input id="f_name" type="text" name="f_name">
+                <br>
+                <label for="l_name">Last Name:</label><br>
+                <input id="l_name" type="text" name="l_name">
 
-        <label for="no"></label>
-        <input id="no" type="checkbox" name="conference" value="no">No
+                <br>
+                <br>
 
+                <!--radio button-->
+                <label for="status_1">Status:</label><br>
+                <input id="status_1" type="radio" name="status" value="student" checked> Student
+
+                <label for="status_2"></label>
+                <input id="status_2" type="radio" name="status" value="hobbyist"> Hobbyist
+
+                <label for="status_3"></label>
+                <input id="status_3" type="radio" name="status" value="professional"> Professional
+
+                <br>
+                <br>
+
+                <!--checkboxes-->
+                <label for="yes">Would you be interested in attending a conference on Machine Learning?</label><br>
+                <input id="yes" type="checkbox" name="conference" value="yes checked">Yes
+
+                <label for="no"></label>
+                <input id="no" type="checkbox" name="conference" value="no">No
+
+                <br>
+                <br>
+
+                <!--Multi-select-->
+                <label for="lead_type"> How did you hear about us? Select all that apply:</label><br>
+                <select id="lead_type" name="lead_generation" multiple>
+                    <option value="magazine_ad"> Magazine AD</option>
+                    <option value="flyer"> Flyer</option>
+                    <option value="facebook"> Facebook</option>
+                    <option value="twitter"> Twitter</option>
+                </select>
+
+                <br>
+                <br>
+
+                <!--Text Areas-->
+                <label for="lead_type">Tell us about your Machine Learning Experience.</label><br>
+                <textarea rows="5" cols="50" name="contribute" maxlength="500" placeholder="500 Words or less" spellcheck="true" required></textarea>
+
+                <br>
+
+                <label for="lead_type">What challenges would you like to see Machine Learning applied to solve?</label><br>
+                <textarea rows="5" cols="50" name="gain" maxlength="500" placeholder="500 Words or less" spellcheck="true" required></textarea>
+
+                <br>
+                <br>
+
+                <!--user auth-->
+                <label for="user_name">Enter your email address:</label><br>
+                <input id="user_name" type="email" name="user_name" required>
+
+                <br>
+                <label for="password">Choose a password:</label><br>
+                <input id="password" type="password" name="pswd" minlength="9" required>
+
+                <br>
+                <label for="verify_password">Re-enter password:</label><br>
+                <input id="verify_password" type="password" name="verify_pswd" minlength="9" required>
+
+                <br>
+                <br>
+
+                <!--File Upload-->
+                <label for="profile_pic">Upload your resume:</label><br>
+                <input type="file" id="profile_pic" name="file_upload" accept=".jpg, .png, .doc">
+
+                <br>
+                <br>
+                <label for="submit">Submit</label><br>
+                <input id="submit" type="submit" name="submit" value="Submit" onclick="return alert('Thank you!')">
+
+                <br>
+
+            </form>
+
+        </div>
         <br>
         <br>
-
-        <!--Multi-select-->
-        <label for="lead_type"> How did you hear about us? Select all that apply:</label><br>
-        <select id="lead_type" name="lead_generation" multiple>
-            <option value="magazine_ad"> Magazine AD</option>
-            <option value="flyer"> Flyer</option>
-            <option value="american_legion"> American Legion</option>
-            <option value="facebook"> Facebook</option>
-            <option value="twitter"> Twitter</option>
-        </select>
-
-        <br>
-        <br>
-
-        <!--Text Areas-->
-        <label for="lead_type">Tell us about your Machine Learning Experience.</label><br>
-        <textarea rows="5" cols="50" name="contribute" maxlength="500" placeholder="500 Words or less" spellcheck="true" required></textarea>
-
-        <br>
-
-        <label for="lead_type">What challenges would you like to see Machine Learning applied to solve?</label><br>
-        <textarea rows="5" cols="50" name="gain" maxlength="500" placeholder="500 Words or less" spellcheck="true" required></textarea>
-
-        <br>
-        <br>
-
-        <!--user auth-->
-        <label for="user_name">Enter your email address:</label><br>
-        <input id="user_name" type="email" name="user_name" required>
-
-        <br>
-        <label for="user_name">Choose a password:</label><br>
-        <input id="password" type="password" name="pswd" minlength="9" required>
-
-        <br>
-        <label for="verify_password">Re-enter password:</label><br>
-        <input id="verify_password" type="password" name="verify_pswd" minlength="9" required>
-
-        <br>
-        <br>
-
-        <!--File Upload-->
-        <label for="profile_pic">Upload your resume:</label><br>
-        <input type="file" id="profile_pic" name="file_upload" accept=".jpg, .png, .doc">
-
-        <br>
-        <br>
-        <label for="submit">Submit</label><br>
-        <input id="submit" type="submit" name="submit" value="Submit" onclick="return alert('Thank you!')">
-
-        <br>
-
-        <label for="submit">Reset</label><br>
-        <input id="reset" type="reset" name="reset" value="Reset" onclick="return confirm('Confirm Reset')">
-
-    </form>
-
-</div>
-<footer>
-    Frankie Lamar, 2018 WEBD121
-</footer>
+        <footer>
+            Frankie Lamar, 2018 WEBD121
+        </footer>
 
 
-</body>
+    </body>
 </html>

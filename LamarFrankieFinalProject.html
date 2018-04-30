@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <title>Machine Learning Engineer</title>
-        <meta charset="UTF-8">
         <meta name="author" content="Frankie Lamar">
         <meta name="'keywords" content="Machine, Learning, Engineer, Deep, Deep Learning, Supervised Learning, Unsupervised Learning">
         <meta name="description" content="Machine Learning is one of the a fastest growing areas of computer science.">
@@ -11,8 +10,8 @@
         <link rel="stylesheet" type="text/css" href="LamarFrankieFinalProject.css">
     </head>
     <body>
-        <div id="navigation">
-            <ul>
+        <div class="navigation">
+            <ul class="nav">
                 <li><a href="LamarFrankieFinalProject.html">Home</a></li>
                 <li><a href="Skills.html">Skills</a></li>
                 <li><a href="Education.html">Education</a></li>
@@ -27,18 +26,37 @@
         <br>
         <br>
         <h3>What is Machine Learning?</h3>
-        <img src="images/engineer_1.jpeg">
-        <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
+        <!--Roll Over-->
+        <img id="headlineImg" src="images/engineer_1.jpeg" alt="Machine Learning" class="center" onmouseover="swapImages()" onmouseout="this.src='images/engineer_1.jpeg'"/>
+
+        <script>
+
+            function swapImages(){
+                document.getElementById("headlineImg").src = "images/engineer_3.jpeg";
+            }
+
+        </script>
+        <div class="content">
+            <p>
+                Machine Learning is a type of computer programming that flips the traditional programming model on its head. Androids and Atomatons have been apart of literature and media for decades. The idea of
+                machines that could think and act on their own has captivated human imagination and will not let go. Thankfully, technology is finally starting to catch up with the fantasy. In traditional computer programming the machines actions are limited to those written in a programming language. According to Andrew Ng, Standord University Computer Science Department and Google Brain Project, machine learning is the process of giving a computer the freedom to take actions that are not explicitly programmed.
+            </p>
+        </div>
+
         <br>
         <br>
-        <h3>Join the Future Machine Learning Engineers of Tomorrow</h3>
-        <img src="images/engineer_3.jpeg">
+        <h3>What do machine learning engineers do?</h3>
+        <img src="images/engineer_8.png" alt="Machine Learning Engineer">
         <br>
-        <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
+        <div class="content">
+            <p>
+                Machine Learning Engineers are the driving force advancing this computer science niche. Machine Learning Engineers develop new algorithms, think up new use cases, and conduct research. In addition to new software developments Machine Learning Engineers also work hardware manufactures to push the limits of computer chips and squeeze more and more compute power out of it. Machine Learning Engineers work in Commercial Businesses, Governments, and Educational Institutions.
+            </p>
+
+        </div>
+
+        <br>
+        <br>
 
         <footer>
             Frankie Lamar, 2018 WEBD121
@@ -57,9 +75,9 @@
     DONE___Appropriate navigation between pages of your website, using local hyperlinks (coded with relative paths)
     DONE___Your webpage content should include a Job Description, Knowledge/Skills required for the job, Training/Education required for the job, and Salary/Benefits expected from the job.
     DONE___Include images representing your job/profession of interest.
-    Include a JavaScript function for an image rollover
+    DONE___Include a JavaScript function for an image rollover
     DONE___Include a hyperlink to a webpage with information about a certification to support your job/profession of interest.
-    Include an HTML table summarizing information about your job/profession of interest.
+    DONE___Include an HTML table summarizing information about your job/profession of interest.
     DONE___Include an HTML form with at least 6 different types of form inputs and appropriate content for the theme of your website
     Video or audio file (original and created by you!) with content relevant to the theme of your website
     DONE___Be sure to create relevant and informative content and to design your website attractively.

@@ -1,7 +1,123 @@
 
 
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #f7f5f0;
+}
+
+/* links */
+
+a{
+    text-decoration: none;
+    color: #0499ff;
+}
+
+a:hover{
+    color: #6633ff;
+}
+
+/* navigation */
+
+.navigation{
+    width:100%;
+    background: #0F52BA;
+    min-height: 25px;
+    padding: 10px;
+    position: static;
+    font-size: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    list-style-type: none;
+    margin: 10px auto;
+    padding: 10px;
+    color: white;
+}
+
+.nav .name {
+    display: none;
+}
+
+.nav li {
+    padding: 5px 10px 10px 10px;
+}
+
+.nav a {
+    transition: all .5s;
+}
+
+.nav a:hover{
+    color: white;
+    text-shadow: 10px 10px #0499ff;
+}
+
+header{
+    text-align: center;
+    background: #0F52BA;
+    padding-top: 30px;
+}
+
+img{
+    max-width: 40%;
+    min-width: 40%;
+}
+
+body{
+    background-color: #B0DFE5;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+.content{
+    width: 50%;
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    text-align: left;
+}
+
+
+
+footer{
+    background-color: #0F52BA;
+    color: white;
+    min-height: 25px;
+    max-height: 25px;
+    justify-content: space-around;
+}
+
+
 /*
-    Appropriate CSS for main elements in your page (body, headings, horizontal rules, images, etc.), such as page background color, text color, font types, font sizes, font colors, width, height, float, margin, etc.)
-    Include a background color (other than white) or a background image representative of your job/profession of interest.
-    Any additional CSS you wish to add to your website (optional).
+    DONE___Appropriate CSS for main elements in your page (body, headings, horizontal rules, images, etc.), such as page background color, text color, font types, font sizes, font colors, width, height, float, margin, etc.)
+    DONE___Include a background color (other than white) or a background image representative of your job/profession of interest.
+    DONE___Any additional CSS you wish to add to your website (optional).
 */
